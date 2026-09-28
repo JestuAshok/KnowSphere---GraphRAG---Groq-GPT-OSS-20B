@@ -1,0 +1,832 @@
+{
+  "nodes": [
+    {
+      "id": "department_r_d_ddd681",
+      "label": "R&D",
+      "type": "Department",
+      "properties": {
+        "description": "Research and Development department focused on innovation",
+        "name": "R&D"
+      }
+    },
+    {
+      "id": "department_product_6a81d1",
+      "label": "Product",
+      "type": "Department",
+      "properties": {
+        "description": "Product management and design department",
+        "name": "Product"
+      }
+    },
+    {
+      "id": "department_operations_6f22c2",
+      "label": "Operations",
+      "type": "Department",
+      "properties": {
+        "description": "IT operations and infrastructure department",
+        "name": "Operations"
+      }
+    },
+    {
+      "id": "department_marketing_ece698",
+      "label": "Marketing",
+      "type": "Department",
+      "properties": {
+        "description": "Marketing and customer engagement department",
+        "name": "Marketing"
+      }
+    },
+    {
+      "id": "team_team_a_96f19d",
+      "label": "Team A",
+      "type": "Team",
+      "properties": {
+        "description": "Core cloud infrastructure engineering team",
+        "department": "R&D",
+        "name": "Team A"
+      }
+    },
+    {
+      "id": "team_team_b_2eb7fd",
+      "label": "Team B",
+      "type": "Team",
+      "properties": {
+        "description": "Product design and management team",
+        "department": "Product",
+        "name": "Team B"
+      }
+    },
+    {
+      "id": "team_team_c_1a4ecc",
+      "label": "Team C",
+      "type": "Team",
+      "properties": {
+        "description": "DevOps and operations team",
+        "department": "Operations",
+        "name": "Team C"
+      }
+    },
+    {
+      "id": "team_team_d_9469d5",
+      "label": "Team D",
+      "type": "Team",
+      "properties": {
+        "description": "Marketing technology team",
+        "department": "Marketing",
+        "name": "Team D"
+      }
+    },
+    {
+      "id": "employee_alice_0d6e82",
+      "label": "Alice",
+      "type": "Employee",
+      "properties": {
+        "role": "Software Engineer",
+        "email": "alice@knowsphere.ai",
+        "name": "Alice"
+      }
+    },
+    {
+      "id": "employee_bob_a6130c",
+      "label": "Bob",
+      "type": "Employee",
+      "properties": {
+        "role": "Tech Lead",
+        "email": "bob@knowsphere.ai",
+        "name": "Bob"
+      }
+    },
+    {
+      "id": "employee_carol_cb369d",
+      "label": "Carol",
+      "type": "Employee",
+      "properties": {
+        "role": "Product Manager",
+        "email": "carol@knowsphere.ai",
+        "name": "Carol"
+      }
+    },
+    {
+      "id": "employee_dave_a396ac",
+      "label": "Dave",
+      "type": "Employee",
+      "properties": {
+        "role": "UX Designer",
+        "email": "dave@knowsphere.ai",
+        "name": "Dave"
+      }
+    },
+    {
+      "id": "employee_eve_f2c9ac",
+      "label": "Eve",
+      "type": "Employee",
+      "properties": {
+        "role": "DevOps Engineer",
+        "email": "eve@knowsphere.ai",
+        "name": "Eve"
+      }
+    },
+    {
+      "id": "employee_frank_cce23a",
+      "label": "Frank",
+      "type": "Employee",
+      "properties": {
+        "role": "Engineering Manager",
+        "email": "frank@knowsphere.ai",
+        "name": "Frank"
+      }
+    },
+    {
+      "id": "employee_grace_cd4245",
+      "label": "Grace",
+      "type": "Employee",
+      "properties": {
+        "role": "Data Scientist",
+        "email": "grace@knowsphere.ai",
+        "name": "Grace"
+      }
+    },
+    {
+      "id": "employee_henry_c4a925",
+      "label": "Henry",
+      "type": "Employee",
+      "properties": {
+        "role": "Backend Engineer",
+        "email": "henry@knowsphere.ai",
+        "name": "Henry"
+      }
+    },
+    {
+      "id": "technology_technology_x_8b9c0f",
+      "label": "Technology X",
+      "type": "Technology",
+      "properties": {
+        "name": "Technology X",
+        "description": "Enterprise cloud infrastructure platform used for scalable compute and storage",
+        "category": "Cloud Infrastructure",
+        "version": "3.2"
+      }
+    },
+    {
+      "id": "technology_technology_y_379ac7",
+      "label": "Technology Y",
+      "type": "Technology",
+      "properties": {
+        "name": "Technology Y",
+        "description": "Machine learning pipeline framework for model training and deployment",
+        "category": "ML/AI",
+        "version": "2.1"
+      }
+    },
+    {
+      "id": "technology_technology_z_c67f8c",
+      "label": "Technology Z",
+      "type": "Technology",
+      "properties": {
+        "name": "Technology Z",
+        "description": "Modern frontend framework for building reactive user interfaces",
+        "category": "Frontend",
+        "version": "18.0"
+      }
+    },
+    {
+      "id": "technology_tech_w_19b1f5",
+      "label": "Tech W",
+      "type": "Technology",
+      "properties": {
+        "name": "Tech W",
+        "description": "Distributed database system for high-availability data storage",
+        "category": "Database",
+        "version": "5.0"
+      }
+    },
+    {
+      "id": "technology_tech_v_a7170d",
+      "label": "Tech V",
+      "type": "Technology",
+      "properties": {
+        "name": "Tech V",
+        "description": "Continuous integration and deployment pipeline automation",
+        "category": "DevOps",
+        "version": "1.4"
+      }
+    },
+    {
+      "id": "project_project_phoenix_8ec568",
+      "label": "Project Phoenix",
+      "type": "Project",
+      "properties": {
+        "description": "Next-generation customer portal built on cloud infrastructure with ML-powered recommendations",
+        "status": "active",
+        "department": "R&D",
+        "team": "Team A",
+        "name": "Project Phoenix"
+      }
+    },
+    {
+      "id": "project_project_nova_c076e8",
+      "label": "Project Nova",
+      "type": "Project",
+      "properties": {
+        "description": "Modern frontend redesign of core product using latest web technologies deployed on cloud",
+        "status": "active",
+        "department": "Product",
+        "team": "Team B",
+        "name": "Project Nova"
+      }
+    },
+    {
+      "id": "project_project_atlas_c1c770",
+      "label": "Project Atlas",
+      "type": "Project",
+      "properties": {
+        "description": "Unified data platform integrating ML capabilities with cloud storage and modern UI",
+        "status": "planning",
+        "department": "R&D",
+        "team": "Team A",
+        "name": "Project Atlas"
+      }
+    },
+    {
+      "id": "project_project_orion_4d728d",
+      "label": "Project Orion",
+      "type": "Project",
+      "properties": {
+        "description": "Infrastructure automation and CI/CD improvement initiative",
+        "status": "active",
+        "department": "Operations",
+        "team": "Team C",
+        "name": "Project Orion"
+      }
+    },
+    {
+      "id": "project_project_nexus_9c5d3c",
+      "label": "Project Nexus",
+      "type": "Project",
+      "properties": {
+        "description": "Customer data platform using distributed database for analytics",
+        "status": "completed",
+        "department": "Marketing",
+        "team": "Team D",
+        "name": "Project Nexus"
+      }
+    },
+    {
+      "id": "customer_acme_corp_e2b247",
+      "label": "Acme Corp",
+      "type": "Customer",
+      "properties": {
+        "name": "Acme Corp",
+        "industry": "Manufacturing",
+        "tier": "Enterprise"
+      }
+    },
+    {
+      "id": "customer_globaltech_28f2b4",
+      "label": "GlobalTech",
+      "type": "Customer",
+      "properties": {
+        "name": "GlobalTech",
+        "industry": "Technology",
+        "tier": "Enterprise"
+      }
+    },
+    {
+      "id": "customer_innovate_ltd_26c3c3",
+      "label": "Innovate Ltd",
+      "type": "Customer",
+      "properties": {
+        "name": "Innovate Ltd",
+        "industry": "Consulting",
+        "tier": "Mid-Market"
+      }
+    },
+    {
+      "id": "customer_vertex_solutions_b27eb3",
+      "label": "Vertex Solutions",
+      "type": "Customer",
+      "properties": {
+        "name": "Vertex Solutions",
+        "industry": "Finance",
+        "tier": "Enterprise"
+      }
+    },
+    {
+      "id": "customer_bluesky_systems_4f09c5",
+      "label": "BlueSky Systems",
+      "type": "Customer",
+      "properties": {
+        "name": "BlueSky Systems",
+        "industry": "Healthcare",
+        "tier": "SMB"
+      }
+    },
+    {
+      "id": "document_tech_roadmap_docx_daff4e",
+      "label": "Tech_Roadmap.docx",
+      "type": "Document",
+      "properties": {
+        "filename": "Tech_Roadmap.docx",
+        "name": "Tech_Roadmap.docx"
+      }
+    },
+    {
+      "id": "document_project_dependencies_xlsx_04012a",
+      "label": "Project_Dependencies.xlsx",
+      "type": "Document",
+      "properties": {
+        "filename": "Project_Dependencies.xlsx",
+        "name": "Project_Dependencies.xlsx"
+      }
+    },
+    {
+      "id": "document_team_technology_doc_pdf_9c2876",
+      "label": "Team_Technology_Doc.pdf",
+      "type": "Document",
+      "properties": {
+        "filename": "Team_Technology_Doc.pdf",
+        "name": "Team_Technology_Doc.pdf"
+      }
+    },
+    {
+      "id": "document_customer_accounts_md_978e75",
+      "label": "Customer_Accounts.md",
+      "type": "Document",
+      "properties": {
+        "filename": "Customer_Accounts.md",
+        "name": "Customer_Accounts.md"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "rel_e2e1fbd6",
+      "source": "team_team_a_96f19d",
+      "target": "department_r_d_ddd681",
+      "type": "PART_OF",
+      "properties": {}
+    },
+    {
+      "id": "rel_05437118",
+      "source": "team_team_b_2eb7fd",
+      "target": "department_product_6a81d1",
+      "type": "PART_OF",
+      "properties": {}
+    },
+    {
+      "id": "rel_5dc3c884",
+      "source": "team_team_c_1a4ecc",
+      "target": "department_operations_6f22c2",
+      "type": "PART_OF",
+      "properties": {}
+    },
+    {
+      "id": "rel_00242e9a",
+      "source": "team_team_d_9469d5",
+      "target": "department_marketing_ece698",
+      "type": "PART_OF",
+      "properties": {}
+    },
+    {
+      "id": "rel_92f7db73",
+      "source": "employee_alice_0d6e82",
+      "target": "team_team_a_96f19d",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "id": "rel_716ff60b",
+      "source": "employee_alice_0d6e82",
+      "target": "department_r_d_ddd681",
+      "type": "BELONGS_TO",
+      "properties": {}
+    },
+    {
+      "id": "rel_b73e33ec",
+      "source": "employee_bob_a6130c",
+      "target": "team_team_a_96f19d",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "id": "rel_c84c0726",
+      "source": "employee_bob_a6130c",
+      "target": "department_r_d_ddd681",
+      "type": "BELONGS_TO",
+      "properties": {}
+    },
+    {
+      "id": "rel_ca007e5b",
+      "source": "employee_carol_cb369d",
+      "target": "team_team_b_2eb7fd",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "id": "rel_a8a16bd4",
+      "source": "employee_carol_cb369d",
+      "target": "department_product_6a81d1",
+      "type": "BELONGS_TO",
+      "properties": {}
+    },
+    {
+      "id": "rel_b48197b3",
+      "source": "employee_dave_a396ac",
+      "target": "team_team_b_2eb7fd",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "id": "rel_5bc7d91b",
+      "source": "employee_dave_a396ac",
+      "target": "department_product_6a81d1",
+      "type": "BELONGS_TO",
+      "properties": {}
+    },
+    {
+      "id": "rel_1d9c0629",
+      "source": "employee_eve_f2c9ac",
+      "target": "team_team_c_1a4ecc",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "id": "rel_a415b4e8",
+      "source": "employee_eve_f2c9ac",
+      "target": "department_operations_6f22c2",
+      "type": "BELONGS_TO",
+      "properties": {}
+    },
+    {
+      "id": "rel_99053ffa",
+      "source": "employee_frank_cce23a",
+      "target": "team_team_a_96f19d",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "id": "rel_d35d3a48",
+      "source": "employee_frank_cce23a",
+      "target": "department_r_d_ddd681",
+      "type": "BELONGS_TO",
+      "properties": {}
+    },
+    {
+      "id": "rel_7ecebca7",
+      "source": "employee_grace_cd4245",
+      "target": "team_team_a_96f19d",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "id": "rel_92fe599f",
+      "source": "employee_grace_cd4245",
+      "target": "department_r_d_ddd681",
+      "type": "BELONGS_TO",
+      "properties": {}
+    },
+    {
+      "id": "rel_50773f70",
+      "source": "employee_henry_c4a925",
+      "target": "team_team_c_1a4ecc",
+      "type": "MEMBER_OF",
+      "properties": {}
+    },
+    {
+      "id": "rel_74eae46e",
+      "source": "employee_henry_c4a925",
+      "target": "department_operations_6f22c2",
+      "type": "BELONGS_TO",
+      "properties": {}
+    },
+    {
+      "id": "rel_d8122e0d",
+      "source": "team_team_a_96f19d",
+      "target": "technology_technology_x_8b9c0f",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "id": "rel_363040c0",
+      "source": "team_team_a_96f19d",
+      "target": "technology_technology_y_379ac7",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "id": "rel_008af968",
+      "source": "team_team_a_96f19d",
+      "target": "technology_technology_z_c67f8c",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "id": "rel_04bca312",
+      "source": "team_team_b_2eb7fd",
+      "target": "technology_technology_x_8b9c0f",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "id": "rel_9f838634",
+      "source": "team_team_b_2eb7fd",
+      "target": "technology_technology_z_c67f8c",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "id": "rel_c44ec072",
+      "source": "team_team_c_1a4ecc",
+      "target": "technology_tech_v_a7170d",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "id": "rel_dcfa7263",
+      "source": "team_team_c_1a4ecc",
+      "target": "technology_tech_w_19b1f5",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "id": "rel_1175d69c",
+      "source": "team_team_d_9469d5",
+      "target": "technology_tech_w_19b1f5",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "id": "rel_ba36efa9",
+      "source": "team_team_d_9469d5",
+      "target": "technology_technology_y_379ac7",
+      "type": "USES",
+      "properties": {}
+    },
+    {
+      "id": "rel_42eb1db9",
+      "source": "project_project_phoenix_8ec568",
+      "target": "department_r_d_ddd681",
+      "type": "BELONGS_TO",
+      "properties": {}
+    },
+    {
+      "id": "rel_89e2fd50",
+      "source": "project_project_phoenix_8ec568",
+      "target": "technology_technology_x_8b9c0f",
+      "type": "DEPENDS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_27ae70cd",
+      "source": "project_project_phoenix_8ec568",
+      "target": "technology_technology_y_379ac7",
+      "type": "DEPENDS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_3f8b1190",
+      "source": "team_team_a_96f19d",
+      "target": "project_project_phoenix_8ec568",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_960842c3",
+      "source": "employee_alice_0d6e82",
+      "target": "project_project_phoenix_8ec568",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_5d471f01",
+      "source": "employee_bob_a6130c",
+      "target": "project_project_phoenix_8ec568",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_d1230c33",
+      "source": "employee_grace_cd4245",
+      "target": "project_project_phoenix_8ec568",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_c45f5461",
+      "source": "project_project_nova_c076e8",
+      "target": "department_product_6a81d1",
+      "type": "BELONGS_TO",
+      "properties": {}
+    },
+    {
+      "id": "rel_c4bbf692",
+      "source": "project_project_nova_c076e8",
+      "target": "technology_technology_x_8b9c0f",
+      "type": "DEPENDS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_ec32075a",
+      "source": "project_project_nova_c076e8",
+      "target": "technology_technology_z_c67f8c",
+      "type": "DEPENDS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_9e195f8f",
+      "source": "team_team_b_2eb7fd",
+      "target": "project_project_nova_c076e8",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_2047f916",
+      "source": "employee_carol_cb369d",
+      "target": "project_project_nova_c076e8",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_f73720fa",
+      "source": "employee_dave_a396ac",
+      "target": "project_project_nova_c076e8",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_52cc8aee",
+      "source": "employee_alice_0d6e82",
+      "target": "project_project_nova_c076e8",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_0183a730",
+      "source": "project_project_atlas_c1c770",
+      "target": "department_r_d_ddd681",
+      "type": "BELONGS_TO",
+      "properties": {}
+    },
+    {
+      "id": "rel_441c499d",
+      "source": "project_project_atlas_c1c770",
+      "target": "technology_technology_x_8b9c0f",
+      "type": "DEPENDS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_40a0ebdf",
+      "source": "project_project_atlas_c1c770",
+      "target": "technology_technology_y_379ac7",
+      "type": "DEPENDS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_d358eb71",
+      "source": "project_project_atlas_c1c770",
+      "target": "technology_technology_z_c67f8c",
+      "type": "DEPENDS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_5da1f233",
+      "source": "team_team_a_96f19d",
+      "target": "project_project_atlas_c1c770",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_9529d094",
+      "source": "employee_bob_a6130c",
+      "target": "project_project_atlas_c1c770",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_b963f0e0",
+      "source": "employee_frank_cce23a",
+      "target": "project_project_atlas_c1c770",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_70e08a9c",
+      "source": "employee_grace_cd4245",
+      "target": "project_project_atlas_c1c770",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_3d7af798",
+      "source": "project_project_orion_4d728d",
+      "target": "department_operations_6f22c2",
+      "type": "BELONGS_TO",
+      "properties": {}
+    },
+    {
+      "id": "rel_5b518966",
+      "source": "project_project_orion_4d728d",
+      "target": "technology_tech_v_a7170d",
+      "type": "DEPENDS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_354a33b1",
+      "source": "project_project_orion_4d728d",
+      "target": "technology_tech_w_19b1f5",
+      "type": "DEPENDS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_a523f593",
+      "source": "team_team_c_1a4ecc",
+      "target": "project_project_orion_4d728d",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_50c59b2f",
+      "source": "employee_eve_f2c9ac",
+      "target": "project_project_orion_4d728d",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_866f32d0",
+      "source": "employee_henry_c4a925",
+      "target": "project_project_orion_4d728d",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_aa3b3969",
+      "source": "project_project_nexus_9c5d3c",
+      "target": "department_marketing_ece698",
+      "type": "BELONGS_TO",
+      "properties": {}
+    },
+    {
+      "id": "rel_4c30107c",
+      "source": "project_project_nexus_9c5d3c",
+      "target": "technology_tech_w_19b1f5",
+      "type": "DEPENDS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_3b1f4589",
+      "source": "project_project_nexus_9c5d3c",
+      "target": "technology_technology_y_379ac7",
+      "type": "DEPENDS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_b2308495",
+      "source": "team_team_d_9469d5",
+      "target": "project_project_nexus_9c5d3c",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_40182da1",
+      "source": "employee_carol_cb369d",
+      "target": "project_project_nexus_9c5d3c",
+      "type": "WORKS_ON",
+      "properties": {}
+    },
+    {
+      "id": "rel_e8b74f24",
+      "source": "customer_acme_corp_e2b247",
+      "target": "project_project_phoenix_8ec568",
+      "type": "OWNS",
+      "properties": {}
+    },
+    {
+      "id": "rel_70a1d428",
+      "source": "customer_globaltech_28f2b4",
+      "target": "project_project_nova_c076e8",
+      "type": "OWNS",
+      "properties": {}
+    },
+    {
+      "id": "rel_14feecd7",
+      "source": "customer_innovate_ltd_26c3c3",
+      "target": "project_project_atlas_c1c770",
+      "type": "OWNS",
+      "properties": {}
+    },
+    {
+      "id": "rel_c84c99d4",
+      "source": "customer_vertex_solutions_b27eb3",
+      "target": "project_project_phoenix_8ec568",
+      "type": "OWNS",
+      "properties": {}
+    },
+    {
+      "id": "rel_3910aea3",
+      "source": "customer_bluesky_systems_4f09c5",
+      "target": "project_project_nexus_9c5d3c",
+      "type": "OWNS",
+      "properties": {}
+    }
+  ]
+}
